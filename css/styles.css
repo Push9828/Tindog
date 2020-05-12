@@ -8,7 +8,7 @@ body{
 }
 
 .container-fluid{
-    padding: 3% 15%;
+    padding: 3% 15% 7%;
 }
 
 h1{
@@ -66,12 +66,16 @@ p{
 .title-image{
     width: 60%;
     transform: rotate(25deg);
+    position: absolute;
+    right: 30%;
 }
 
 /* features Section */
 
 #features{
     padding: 7% 15%;
+    background-color: #fff;
+    position: relative;
 }
 
 .feature-box{
@@ -128,3 +132,50 @@ p{
 .pricing-column{
     padding: 3% 2%;
 }
+
+/* call to action section */
+
+#cta{
+    background-color: #FF4C68;
+    padding: 7% 15%;
+    text-align: center;
+}
+
+.call-to-action h3{
+    font-family: "Montserrat";
+    font-weight: 900;
+    color: #fff;
+}
+
+.cta-heading{
+    font-family: "Montserrat";
+    font-weight: 900;
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+
+/* footer Section */
+
+#footer{
+    padding: 7% 15%;
+    text-align: center;
+}
+
+.social-icons{
+    margin: 20px 10px;
+}
+
+ /* Media Query  */
+
+@media (max-width: 1028px){
+    #title{
+        text-align: center;
+    }
+
+    .title-image{
+        position: static;
+        transform: rotate(0);
+    }
+
+}
+
